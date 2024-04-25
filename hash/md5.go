@@ -32,3 +32,10 @@ func StringMd5(s string) string {
 	fmt.Println("hello word")
     return hex.EncodeToString(md5.Sum(nil))
 }
+
+
+// get string md5
+func Fun() int {
+    
+    return 5
+}
