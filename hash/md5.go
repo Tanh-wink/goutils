@@ -29,13 +29,5 @@ func FileMd5(filename string) (string, error) {
 func StringMd5(s string) string {
     md5 := md5.New()
     md5.Write([]byte(s))
-	fmt.Println("hello word")
     return hex.EncodeToString(md5.Sum(nil))
-}
-
-
-// get string md5
-func Fun() int {
-    
-    return 5
 }
